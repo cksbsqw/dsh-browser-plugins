@@ -1,0 +1,3 @@
+- insert:
+    - id: browser-automation
+      name: dsh-browser-automation

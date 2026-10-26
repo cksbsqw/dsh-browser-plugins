@@ -1,0 +1,23 @@
+{
+  "name": "dsh-browser-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "浏览器自动化：读取页面、点击、输入、截图、标签与下载 / Browser automation over CDP with a persistent signed-in profile",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

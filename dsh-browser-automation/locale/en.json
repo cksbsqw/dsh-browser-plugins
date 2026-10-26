@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Browser Automation",
+    "description": "Drives a signed-in Edge window: read pages, click, type, screenshot, manage tabs, and download."
+  }
+}

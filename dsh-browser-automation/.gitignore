@@ -1,0 +1,8 @@
+node_modules/
+.dsh-browser/
+screenshots/
+*.log
+*.png
+!icon.svg
+.DS_Store
+Thumbs.db
